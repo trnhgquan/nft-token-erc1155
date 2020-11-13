@@ -1,0 +1,27 @@
+{
+  "name": "nft-token",
+  "version": "1.0.0",
+  "description": "nft token",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethereum",
+    "NFT",
+    "ERC721",
+    "ERC1155"
+  ],
+  "author": "Hoang Quan Tran (0xbami.eth)",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ethers": "^5.0.19",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.3.0"
+  }
+}
